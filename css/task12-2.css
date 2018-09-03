@@ -1,0 +1,178 @@
+body {
+  font-family: HiraginoSansGB-W3;
+}
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  background-color: #5FC0CD;
+  background-image: url(../img/shape2.png);
+  background-size: 21px 22px;
+  background-repeat: no-repeat;
+  background-position: right 15px center;
+}
+header button {
+  border-radius: 5px;
+  box-shadow: none;
+  background-color: #55A8B3;
+  font-size: 17px;
+  line-height: 1!important;
+  padding: 7px 10px!important;
+}
+header button:hover,
+header button:active,
+header button:visited {
+  background-color: #fff;
+}
+header button:hover a,
+header button:active a,
+header button:visited a {
+  color: #5FC0CD;
+  text-decoration: none;
+  border-radius: 5px;
+}
+header button a {
+  color: #fff;
+  line-height: 1;
+}
+header .btn-right {
+  margin-left: -5px;
+}
+header img {
+  position: absolute;
+  right: 15px;
+  top: 11px;
+  height: 22px;
+}
+.r1 {
+  display: flex;
+  flex-direction: row;
+}
+.r1 form {
+  flex: 1;
+}
+.r1 form .u01,
+.r1 form .u02 {
+  width: 100%;
+  font-size: 0.875em;
+  color: #999;
+  height: 40px;
+  text-align: center;
+  text-align-last: center;
+  appearance: none;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  background-image: url(../img/down.png), url(../img/vertical-line.png);
+  background-size: 6.5px 4px, 1px 30px;
+  background-position: right 6px center, right center;
+  background-repeat: no-repeat, no-repeat;
+  border-right: 0;
+  border-left: 0;
+}
+.r1 form .u03 {
+  width: 100%;
+  font-size: 0.875em;
+  color: #999;
+  height: 40px;
+  text-align: center;
+  text-align-last: center;
+  appearance: none;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  background-image: url(../img/down.png);
+  background-size: 6.5px 4px, 1px 30px;
+  background-position: right 6px center;
+  background-repeat: no-repeat;
+  border-right: 0;
+  border-left: 0;
+}
+.date {
+  position: relative;
+  border-bottom: 1px solid #999;
+  padding-top: 14px;
+  background-image: url(../img/next.png);
+  background-size: 10px 17px;
+  background-position: right 15px center;
+  background-repeat: no-repeat;
+}
+.date .service {
+  padding-left: 35px;
+  background-image: url(../img/calendar.png);
+  background-size: 12px 12px;
+  background-position: left 15px center;
+  background-repeat: no-repeat;
+  font-size: 13px;
+  color: #5D5D5D;
+  line-height: 1;
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+.date .worktime {
+  padding-left: 35px;
+  font-size: 13px;
+  color: #333;
+  font-weight: 700;
+  line-height: 1;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.date .address {
+  line-height: 1;
+  margin-top: 10px;
+  margin-bottom: 14px;
+  padding-left: 35px;
+  background-image: url(../img/shape5.png);
+  background-size: 10px 12px;
+  background-position: left 15px center;
+  background-repeat: no-repeat;
+  font-size: 13px;
+  color: #5D5D5D;
+}
+.date .price {
+  position: absolute;
+  top: 36px;
+  right: 10vw;
+  color: #E63B0E;
+  font-size: 15px;
+  line-height: 1;
+}
+footer {
+  position: fixed;
+  bottom: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #F8FAFB;
+  width: 100%;
+  height: 50px;
+}
+footer a[class="about"] {
+  padding-top: 29px;
+  color: #999999;
+  font-size: 10px;
+  padding-top: 28px;
+  background-image: url(../img/people.png);
+  background-size: 21px 20.5px;
+  background-position: center top;
+  background-repeat: no-repeat;
+  line-height: 1;
+}
+footer a[class="home"] {
+  padding-top: 29px;
+  color: #5FC0CD;
+  font-size: 10px;
+  padding-top: 28.5px;
+  background-image: url(../img/home.png);
+  background-size: 23px 20px;
+  background-position: center top;
+  background-repeat: no-repeat;
+  line-height: 1;
+}
+footer a img {
+  width: 47px;
+  height: 47px;
+}

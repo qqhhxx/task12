@@ -1,0 +1,190 @@
+@grey: #F8FAFB;
+@grey2: #5D5D5D;
+@red: #E63B0E;
+@blue: #5FC0CD;
+@blue-dark: #55A8B3;
+body {
+    font-family: HiraginoSansGB-W3;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    background-color: @blue;
+    background-image: url(../img/shape2.png);
+    background-size: 21px 22px;
+    background-repeat: no-repeat;
+    background-position: right 15px center;
+    button {
+        border-radius: 5px;
+        box-shadow: none;
+        background-color: @blue-dark;
+        font-size: 17px;
+        line-height:1!important;
+        padding:7px 10px!important;
+        &:hover,
+        &:active,
+        &:visited {
+            background-color: #fff;
+            a {
+                color: @blue;
+                text-decoration: none;
+                border-radius: 5px;
+                
+            }
+        }
+        a {
+            color: #fff;
+            line-height:1;
+        }
+    }
+    .btn-right {
+        margin-left: -5px;
+    }
+    img {
+        position: absolute;
+        right: 15px;
+        top: 11px;
+        height: 22px;
+    }
+}
+
+.r1 {
+    display: flex;
+    flex-direction: row;
+    form {
+        flex: 1;
+        
+        .u01,
+        .u02 {
+            width: 100%;
+            font-size: 14/16em;
+            color: #999;
+            height: 40px;
+            text-align: center;
+            text-align-last: center;
+            appearance: none;
+            -moz-appearance: none;
+            -webkit-appearance: none;
+            background-image: url(../img/down.png), url(../img/vertical-line.png);
+            background-size: 13/2px 4px, 1px 30px;
+            background-position: right 6px center, right center;
+            background-repeat: no-repeat, no-repeat;
+            border-right: 0;
+            border-left: 0;
+            
+        }
+        .u03 {
+            width: 100%;
+            font-size: 14/16em;
+            color: #999;
+            height: 40px;
+            text-align: center;
+            text-align-last: center;
+            appearance: none;
+            -moz-appearance: none;
+            -webkit-appearance: none;
+            background-image: url(../img/down.png);
+            background-size: 13/2px 4px, 1px 30px;
+            background-position: right 6px center;
+            background-repeat: no-repeat;
+            border-right: 0;
+            border-left: 0;
+            
+        }
+    }
+}
+
+.date {
+    position: relative;
+    border-bottom: 1px solid #999;
+    padding-top:14px;
+    background-image: url(../img/next.png);
+    background-size: 10px 17px;
+    background-position: right 15px center;
+    background-repeat: no-repeat;
+    .service {
+        padding-left: 35px;
+        background-image: url(../img/calendar.png);
+        background-size: 12px 12px;
+        background-position: left 15px center;
+        background-repeat: no-repeat;
+        font-size: 13px;
+        color: @grey2;
+        line-height: 1;
+        margin-top: 0;
+        margin-bottom: 10px;
+    }
+    .worktime {
+        padding-left: 35px;
+        font-size: 13px;
+        color: #333;
+        font-weight: 700;
+        line-height: 1;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .address {
+        line-height: 1;
+        margin-top: 10px;
+        margin-bottom: 14px;
+        padding-left: 35px;
+        background-image: url(../img/shape5.png);
+        background-size: 10px 12px;
+        background-position: left 15px center;
+        background-repeat: no-repeat;
+        font-size: 13px;
+        color: @grey2;
+    }
+    .price {
+        position: absolute;
+        top: 36px;
+        right: 10vw;
+        color: @red;
+        font-size: 15px;
+        line-height: 1;
+    }
+}
+
+footer {
+    position:fixed;
+    bottom:0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: @grey;
+    width: 100%;
+    height: 50px;
+    
+    a[class="about"] {
+        padding-top: 58/2px;
+        color: #999999;
+        font-size: 10px;
+        padding-top: 56/2px;
+        background-image: url(../img/people.png);
+        background-size: 42/2px 41/2px;
+        background-position: center top;
+        background-repeat: no-repeat;
+        line-height: 1;
+    }
+    a[class="home"] {
+        padding-top: 58/2px;
+        color: @blue;
+        font-size: 10px;
+        padding-top: 57/2px;
+        background-image: url(../img/home.png);
+        background-size: 46/2px 40/2px;
+        background-position: center top;
+        background-repeat: no-repeat;
+        line-height: 1;
+    }
+    a img {
+        width: 94/2px;
+        height: 94/2px;
+    }
+}
